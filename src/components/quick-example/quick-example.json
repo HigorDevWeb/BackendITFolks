@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_quick_example_quick_examples",
+  "info": {
+    "displayName": "quickExample"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

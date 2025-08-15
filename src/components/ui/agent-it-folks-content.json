@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_ui_agent_it_folks_contents",
+  "info": {
+    "displayName": "AgentITFolksContent"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "searchTitle": {
+      "type": "string"
+    },
+    "searchSubtitle": {
+      "type": "string"
+    },
+    "groupLabel": {
+      "type": "string"
+    },
+    "groupPlaceholder": {
+      "type": "string"
+    },
+    "companyLabel": {
+      "type": "string"
+    },
+    "companyPlaceholder": {
+      "type": "string"
+    },
+    "cityLabel": {
+      "type": "string"
+    },
+    "cityPlaceholder": {
+      "type": "string"
+    },
+    "stateLabel": {
+      "type": "string"
+    },
+    "statePlaceholder": {
+      "type": "string"
+    },
+    "searchButton": {
+      "type": "string"
+    },
+    "clearButton": {
+      "type": "string"
+    },
+    "BuscaPersonalizadaSub": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "blocks"
+    },
+    "completeLabel": {
+      "type": "string"
+    },
+    "subITFolks": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_como_funciona_como_funcionas",
+  "info": {
+    "displayName": "comoFunciona"
+  },
+  "options": {},
+  "attributes": {
+    "labelComoFunciona": {
+      "type": "string"
+    },
+    "discricao": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

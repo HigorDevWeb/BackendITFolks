@@ -1,0 +1,57 @@
+{
+  "name": "strapi-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.38.0",
+    "@strapi/data-transfer": "^5.18.0",
+    "@strapi/plugin-cloud": "0.0.0-experimental.fab5596272a3054c93ab4b5cc1cf3ee46872859f",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.fab5596272a3054c93ab4b5cc1cf3ee46872859f",
+    "@strapi/provider-email-nodemailer": "^5.18.1",
+    "@strapi/strapi": "0.0.0-experimental.fab5596272a3054c93ab4b5cc1cf3ee46872859f",
+    "better-sqlite3": "11.3.0",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21",
+    "nodemailer": "^7.0.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "semver": "^7.7.2",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@strapi/types": "^5.18.0",
+    "@strapi/typescript-utils": "^5.18.0",
+    "@types/lodash": "^4",
+    "@types/node": "^24.0.13",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/semver": "^7",
+    "esbuild": "^0.25.6",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "25d6430c-e9f6-4309-acc5-9ed79e0c0dfd",
+    "installId": "e56519721733c48b129514b82014db5dbd3ea591501e7be6f2309f605ff06050"
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
+}

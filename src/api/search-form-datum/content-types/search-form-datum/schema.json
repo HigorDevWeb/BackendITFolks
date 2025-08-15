@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search-form-data",
+  "info": {
+    "singularName": "search-form-datum",
+    "pluralName": "search-form-data",
+    "displayName": "Search Form Datum"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "grupo": {
+      "type": "string",
+      "required": true
+    },
+    "marca": {
+      "type": "string",
+      "required": true
+    },
+    "cidade": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "AC",
+        "AL",
+        "AP",
+        "AM",
+        "BA",
+        "CE",
+        "DF",
+        "ES",
+        "GO",
+        "MA",
+        "MT",
+        "MS",
+        "MG",
+        "PA",
+        "PB",
+        "PR",
+        "PE",
+        "PI",
+        "RJ",
+        "RN",
+        "RS",
+        "RO",
+        "RR",
+        "SC",
+        "SP",
+        "SE",
+        "TO"
+      ]
+    }
+  }
+}

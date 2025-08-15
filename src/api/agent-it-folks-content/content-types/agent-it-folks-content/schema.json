@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agent_it_folks_contents",
+  "info": {
+    "singularName": "agent-it-folks-content",
+    "pluralName": "agent-it-folks-contents",
+    "displayName": "agentITFolksContent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "AgentITFolksContent": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.agent-it-folks-content",
+      "repeatable": true
+    },
+    "quickExample": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "quick-example.quick-example",
+      "repeatable": true
+    },
+    "comoFunciona": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "como-funciona.como-funciona",
+      "repeatable": false
+    }
+  }
+}
